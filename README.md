@@ -1,7 +1,7 @@
 # esercizi-java
 
-### Esercizio [Università](universita/README.md)
+### Esercizio [Università](Università/README.md)
 
-### Esercizio [Libro](libro/README.md)
+### Esercizio [Libro](Libro/README.md)
 
-### Esercizio [Motorino](motorino/README.md) 
+### Esercizio [Motorino](motorino/README.md)
