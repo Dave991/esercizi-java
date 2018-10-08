@@ -3,7 +3,7 @@ public class Docente {
   private String nome;
   private String cognome;
   private String codice;
-  private int eta;
+  protected int eta;
 
   public class Docente(String nome, String cognome, String codice, int eta) {
     this.nome = nome;
@@ -27,5 +27,5 @@ public class Docente {
   public int getEta() {
     return this.eta;
   }
-  
+
 }
