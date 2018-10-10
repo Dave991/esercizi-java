@@ -1,11 +1,10 @@
 public class Motorino {
   private String colore;
-  private float velocita=0.f;
+  private float velocita = 0.f;
   private String tipo;
-  private boolean antifurto=false;
+  private boolean antifurto = false;
 
-  public Motorino(String colore, String tipo, float velocita)
-  {
+  public Motorino(String colore, String tipo, float velocita) {
     this.colore = colore;
     this.tipo = tipo;
     this.velocita = velocita;
@@ -21,20 +20,15 @@ public class Motorino {
   }
 
   private boolean verifica() {
-    if (antifurto==false)
-    {
+    if (antifurto == false) {
       return true;
-    }
-    else
-    {
+    } else {
       System.out.println("ERRORE antifurto inserito ueueueueueue");
       return false;
     }
   }
 
-  public void inserisciAntifurto()
-  {
+  public void inserisciAntifurto() {
     this.antifurto = true;
   }
-
 }
