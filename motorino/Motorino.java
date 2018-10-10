@@ -2,7 +2,7 @@ public class Motorino {
   private String colore;
   private float velocita=0.f;
   private String tipo;
-  private boolean antifurto=false;
+  private boolean antifurto=true;
 
   public Motorino(String colore, String tipo, float velocita)
   {
@@ -35,6 +35,11 @@ public class Motorino {
   public void inserisciAntifurto()
   {
     this.antifurto = true;
+    this.velocita = 0;
   }
 
+  public void togliAntifurto()
+  {
+    this.antifurto = false;
+  }
 }
